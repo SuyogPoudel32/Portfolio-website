@@ -222,12 +222,9 @@ header {
 .neon-container-for-img {
     position: relative;
     width: 300px;
-    /* Adjust as needed */
     height: 300px;
-    /* Adjust as needed */
     border-radius: 50%;
     background-color: transparent;
-    /* No color inside the circle */
     box-shadow:
         0 0 20px rgba(0, 255, 255, 0.8),
         /* Aqua glow on left and right */
@@ -254,12 +251,9 @@ header {
     left: 50%;
     transform: translate(-50%, -50%);
     width: 100%;
-    /* Ensure the image fits perfectly */
     height: 100%;
-    /* Ensure the image fits perfectly */
     border-radius: 50%;
     object-fit: cover;
-    /* Maintain aspect ratio and cover the container */
 }
 
 .second-section .second-text-about {
